@@ -23,7 +23,7 @@ import time
 
 # Change to our data directory
 os.chdir('/Users/e003070/notebook/')
-lines = [x for x in open('./processing_log.txt', 'r').readlines() if 'Processing' in x]
+lines = [x for x in open('./logfile.txt', 'r').readlines() if 'Processing' in x]
 print len(lines)
 print "first"
 for l in lines[0:5]:
